@@ -2,6 +2,8 @@
 
 My personal portfolio site — live at **https://toprakkars.github.io**
 
+![Portfolio home page](https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/portfolio.jpg)
+
 Built with plain HTML, CSS and JavaScript (no framework), hosted on GitHub Pages.
 
 ## Features

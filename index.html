@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toprak Arda Kars – Portfolio</title>
+  <meta name="description" content="Portfolio of Toprak Arda Kars, Software Engineering student in Berlin. Web development, Python, Java, C.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="logo">TK<span>.</span></a>
+    <nav>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#projects" data-i18n="nav_projects">Projects</a>
+      <a href="#skills" data-i18n="nav_skills">Skills</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+      <button id="lang" aria-label="Switch language">DE</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" data-i18n="hero_eyebrow">Software Engineering Student · Berlin</p>
+      <h1>Toprak Arda Kars</h1>
+      <p class="lead" data-i18n="hero_lead">I build clean, bilingual websites for small businesses and write code in Python, Java and C.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects" data-i18n="hero_cta">See my work</a>
+        <a class="btn" href="mailto:toprak2712@gmail.com" data-i18n="hero_contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 data-i18n="about_title">About me</h2>
+      <p data-i18n="about_p1">I'm a Software Engineering student (B.Sc.) at the University of Europe for Applied Sciences in Berlin, expected to graduate in 2028.</p>
+      <p data-i18n="about_p2">Alongside my studies I work as a Werkstudent in hotel service and as a freelance Turkish transcriptionist on remote audio projects. I design and build websites for local businesses — hand-coded and with AI-powered tools.</p>
+      <ul class="facts">
+        <li><strong>🇹🇷</strong> <span data-i18n="lang_tr">Turkish – native</span></li>
+        <li><strong>🇬🇧</strong> <span data-i18n="lang_en">English – C1</span></li>
+        <li><strong>🇩🇪</strong> <span data-i18n="lang_de">German – A1</span></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 data-i18n="projects_title">Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Café Website Concept</h3>
+          <p data-i18n="p_cafe">Bilingual (EN/DE) landing page for a minimalist Berlin café: menu, opening hours and a responsive layout.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <div class="links">
+            <a href="https://toprakkars.github.io/cafe-website-concept/">Live demo ↗</a>
+            <a href="https://github.com/ToprakKars/cafe-website-concept">Code ↗</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Turkish Transcript Tools</h3>
+          <p data-i18n="p_tools">Python command-line tool that cleans Turkish transcripts, checks timestamps and counts words per speaker.</p>
+          <p class="tags">Python · unittest</p>
+          <div class="links">
+            <a href="https://github.com/ToprakKars/turkish-transcript-tools">Code ↗</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Barbershop Website</h3>
+          <p data-i18n="p_barber">Bilingual website concept for a Berlin barbershop with galleries and a booking system built on Google Sheets and Apps Script.</p>
+          <p class="tags">React · Vite · Apps Script · SEO</p>
+        </article>
+        <article class="card">
+          <h3>Portfolio</h3>
+          <p data-i18n="p_portfolio">This site — plain HTML, CSS and JavaScript with an English/German language switch.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <div class="links">
+            <a href="https://github.com/ToprakKars/toprakkars.github.io">Code ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 data-i18n="skills_title">Skills</h2>
+      <div class="skills">
+        <div>
+          <h3 data-i18n="skills_web">Web</h3>
+          <p>HTML · CSS · JavaScript · React · Vite · Google Apps Script · SEO</p>
+        </div>
+        <div>
+          <h3 data-i18n="skills_prog">Programming</h3>
+          <p>Python · Java · C</p>
+        </div>
+        <div>
+          <h3 data-i18n="skills_other">Other</h3>
+          <p data-i18n="skills_other_list">Turkish transcription · Generative AI tools · Customer service</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 data-i18n="contact_title">Let's talk</h2>
+      <p data-i18n="contact_p">Open to remote, part-time work in web development, language evaluation and AI training data.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:toprak2712@gmail.com">toprak2712@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/toprak-arda-kars-2a7a80303/">LinkedIn</a>
+        <a class="btn" href="https://github.com/ToprakKars">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Toprak Arda Kars</footer>
+  <script src="script.js"></script>
+</body>
+</html>
